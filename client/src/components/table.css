@@ -1,0 +1,59 @@
+table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* table tr:nth-child(odd) {
+  background-color: black;
+} */
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th, tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: black;
+}
+
+.table_container{
+  margin-bottom: 100px;
+}
+
+
+td{
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter_image{
+  width: 15px;
+  position:relative ;
+  top: 2px;
+  left: 10px;
+}
+
+.filter_image:hover{
+  cursor: pointer;
+}
+
+.footer_sec{
+  margin: 15px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
